@@ -33,8 +33,8 @@ $(function() {
          */
          it('URL defined and not empty', function() {
             for (feed of allFeeds) {
-            expect(feed.hasOwnProperty('url')).toBe(true)
-            expect(feed.url.length).not.toBe(0)
+            expect(feed.hasOwnProperty('url')).toBe(true);
+            expect(feed.url.length).not.toBe(0);
             }
          })
         
@@ -45,8 +45,8 @@ $(function() {
          */
          it('name defined and not empty', function() {
             for (feed of allFeeds) {
-            expect(feed.hasOwnProperty('name')).toBe(true)
-            expect(feed.name.length).not.toBe(0)
+            expect(feed.hasOwnProperty('name')).toBe(true);
+            expect(feed.name.length).not.toBe(0);
             }
          })
     });
@@ -71,9 +71,9 @@ $(function() {
     
            it('menu changes visibility when menu icon is clicked', function() {
             $('.menu-icon-link').click();
-            expect($('body').hasClass('menu-hidden')).toBe(false)
+            expect($('body').hasClass('menu-hidden')).toBe(false);
             $('.menu-icon-link').click();
-            expect($('body').hasClass('menu-hidden')).toBe(true)
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         })
     })
 
@@ -88,7 +88,7 @@ $(function() {
 
     describe('Initial Entries', function() {
         beforeEach(done => {
-            loadFeed(0, done)
+            loadFeed(0, done);
         });
 
         it('At least a single entry element within feed when loa is called', function() {
