@@ -8,7 +8,7 @@ frontend-nanodegree-feedreader
 
 ## Installation
 * Download the zip copy of the repository.
-* copy the 'frontend-nanodegree-feedreader' folder to a desired location on your computer
+* copy the 'feedreader' folder to a desired location on your computer
 * double-click on the index file to open the feed.
 
 
